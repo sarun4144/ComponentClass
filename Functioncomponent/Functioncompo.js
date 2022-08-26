@@ -29,7 +29,7 @@ export default Functioncompo
       )
     }
 
-    export const Fotter()=>{
+    export const Fotter=()=>{
         return(
             <div style={{textAlign:'center'}}>
                 &copy;{new Date().getFullYear()} All right reserved
