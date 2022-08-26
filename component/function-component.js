@@ -1,6 +1,4 @@
-
 import React from 'react'
-
 export function Header() {
     const aStyle ={
         display:'inline-block',
@@ -16,10 +14,6 @@ export function Header() {
         </div>
     )
 }
-
-
-
-    
     export  function Content() {
       return (
         <div style={{textAlign:'center'}}>
@@ -29,11 +23,31 @@ export function Header() {
       )
     }
 
-    export const Fotter=()=>{
+    export const Footer=()=>{
         return(
             <div style={{textAlign:'center'}}>
                 &copy;{new Date().getFullYear()} All right reserved
             </div>
         )
     }
+   /* export class Calender extends React.Component {
+        getDate(){
+            const dayName = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday']
+            const monthName = [ "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December" ]
+            const date = new Date()
+            const weekDay = dayName[date.getDay()]
+            const month = monthName[date.getMonth]
+            const day = date.getDate()
+            const year = date.getFullYear() + 543
+            return('วัน ${weekDay} ที่ ${day} ${month} ${year}')
+
+        }
+        render(){
+            return(
+               <div>{this.getDate()}</div>
+            )
+        }
+     }
+    */
     

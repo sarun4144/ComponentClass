@@ -1,14 +1,12 @@
 import './App.css';
-
-import {Header,Content,Fotter} from './component/function-component'
+import {Header,Content,Footer} from './component/function-component'
 function App() {
   return (
     <div className="App">
-    <><Header/><Content/><Fotter/></>
-      <div>
-        Hello
-      </div>
+    <><Header/><Content/><Footer/></>
+  
     </div>
+
   );
 }
 
