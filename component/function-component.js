@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-function Functioncompo() {
+export function Header() {
     const aStyle ={
         display:'inline-block',
         color:'blue',
@@ -17,13 +17,13 @@ function Functioncompo() {
     )
 }
 
-export default Functioncompo
+
 
     
     export  function Content() {
       return (
         <div style={{textAlign:'center'}}>
-            <h2>Hello <br/> React & React-Native </h2>
+            <h2>Hello<br/>React & React-Native </h2>
             <br/><br/><br/>
         </div>
       )
